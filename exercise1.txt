@@ -1,0 +1,23 @@
+1 - SELECT  * FROM robots;
+
+2-  SELECT FROM robots WHERE personality LIKE 'anxious';
+
+3- SELECT * FROM recipes WHERE nut_free LIKE 'true';
+
+4- SELECT COUNT (*) FROM recipes WHERE nut_free LIKE 'true' AND vegetarian LIKE 'false';
+
+5- SELECT * FROM animals WHERE MAX number_of_legs;
+
+6- SELECT MIN(minutes_to_play) FROM board_games;
+
+7- SELECT MAX(minutes_required) FROM recipes;
+
+8- SELECT * FROM robots WHERE name (starts with M);
+
+9- SELECT COUNT (*) FROM board_games WHERE  min_players = 8 AND max_players = 8;
+
+10- SELECT * FROM animals WHERE swimming LIKE true AND egg-laying LIKE true;
+
+11- SELECT * FROM animals WHERE swimming LIKE true AND egg-laying LIKE true AND flying LIKE false;
+
+12- SELECT * FROM board_games WHERE MAX max_players;
